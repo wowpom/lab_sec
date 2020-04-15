@@ -14,7 +14,7 @@ namespace lab_sec
             else
                 Console.WriteLine("Это не палиндром\n");
 
-            Console.WriteLine("Вы хотите ввести ещё одно число \n Введите 1 если да");
+            Console.WriteLine("Вы хотите ввести ещё одно число? \n Введите 1 если да");
             if (Console.ReadLine() == "1")
                 Menu();
 
